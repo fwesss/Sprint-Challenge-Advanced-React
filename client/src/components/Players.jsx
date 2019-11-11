@@ -61,7 +61,7 @@ class Players extends Component {
         {players.map((player, index) => (
         // eslint-disable-next-line react/no-array-index-key
           <FlexItem key={index} marginVertical="1em">
-            <PlayerCard player={player} />
+            <PlayerCard player={player} theme={theme} />
           </FlexItem>
         ))}
       </Flex>
