@@ -51,7 +51,7 @@ const ThemePicker = ({ theme, setTheme }) => {
           data={themes}
           selectedItem={selectedItem}
           onChange={handleChange}
-          placeholder={theme}
+          aria-label="theme selector"
         />
       </Dialog>
     </>

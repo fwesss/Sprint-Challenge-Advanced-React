@@ -17,7 +17,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <StrictMode>
-        <Container>
+        <Container data-testid="container">
           <ThemePicker theme={theme} setTheme={setTheme} />
           <Players theme={theme} />
         </Container>
